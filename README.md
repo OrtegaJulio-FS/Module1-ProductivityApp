@@ -5,7 +5,7 @@
 2. In a terminal, enter the `ProductivityApp` folder.
 3. Run `npm install`, then `npx expo install --check`.
 4. Run `npm run web` for the browser.
-5. Run `npm start` for the QR code. Open it with a compatible Expo Go on your phone, on the same Wi-Fi network. SDK 54 is pinned to match Exercise 1.5; the current App Store Expo Go might require a newer SDK. Use a compatible development build or upgrade with `npx expo install --fix` after updating Expo if needed.
+5. Run `npm start` for the QR code. Open it with a compatible Expo Go on your phone, on the same Wi-Fi network. The project has been upgraded to SDK 58 to match the Expo Go installed on the test iPhone.
 6. `npm run typecheck` checks TypeScript. `npm run export:web` checks web bundling.
 
 ## Features
@@ -18,7 +18,7 @@
 - Errors appear in the UI; failed writes do not silently change the displayed task state.
 
 ## Storage and version decisions
-This project uses the SDK 54 stack explicitly supplied in Exercise 1.5, rather than claiming it is the latest stable Expo. Assignment 1.6 asks for latest stable, so confirm whether the instructor expects an upgrade or the supplied course stack.
+This project began with the SDK 54 stack supplied in Exercise 1.5 and was upgraded to SDK 58 because the current iPhone Expo Go rejected SDK 54. The storage and NativeWind verification features remain the same.
 
 Native tasks use parameterized SQLite statements. Native name/theme settings use Expo SecureStore. Web tasks and settings use AsyncStorage, as prescribed by Exercise 1.5's platform-aware storage proxy. Browser storage is not encrypted. Data is local per device/browser, with no sync. Assignment 1.6 also says “same data storage approach across platforms”; if this means literal SQLite on web, ask the instructor before submission. Expo SQLite web requires additional WASM and cross-origin-isolation setup.
 

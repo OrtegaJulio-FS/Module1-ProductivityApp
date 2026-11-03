@@ -11,3 +11,6 @@
 Setup Time: [actual minutes]
 Most Challenging Part: [your experience]
 Additional issues and verified solutions: [add as encountered]
+
+4. Issue: iPhone Expo Go rejected the project because it requires SDK 58, while the course setup used SDK 54.
+   Solution: Upgraded Expo and its native dependencies to SDK 58 and updated NativeWind and build tools. Native runtime results remain pending phone verification.

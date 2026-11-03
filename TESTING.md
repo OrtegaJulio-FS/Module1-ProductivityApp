@@ -20,8 +20,8 @@
 - Public GitHub repository, instructor invitation, and final matching ZIP after adding remaining materials.
 
 ## Known constraints
-- Expo SDK 54 matches the supplied exercise; it is not claimed to be latest stable. Check instructor expectations for Assignment 1.6.
+- Upgraded from SDK 54 to SDK 58 to match the user’s installed iPhone Expo Go. TypeScript, SDK compatibility checks (offline metadata), iOS bundling and web bundling pass after upgrade. Actual iPhone runtime verification remains pending.
 - Browser task/settings storage follows Exercise 1.5's AsyncStorage proxy. Literal cross-platform SQLite would need a different web setup.
-- npm reports 33 dependency advisories (1 low, 27 moderate, 5 high) in the pinned course stack. No force upgrade was applied because it can break SDK compatibility.
+- npm reports 12 moderate dependency advisories after the SDK 58 upgrade. No force upgrade was applied because it can break SDK compatibility.
 - No cloud sync or task editing; neither is required by the core rubric.
 - Local preview uses a basic static server; direct reloads at nested URLs require an SPA fallback. Use `npm run web` for development.
