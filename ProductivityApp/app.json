@@ -1,0 +1,19 @@
+{
+  "expo": {
+    "name": "Focus",
+    "slug": "focus-productivity",
+    "scheme": "focus",
+    "version": "1.0.0",
+    "userInterfaceStyle": "automatic",
+    "plugins": [
+      "expo-router",
+      "expo-secure-store"
+    ],
+    "web": {
+      "bundler": "metro"
+    },
+    "ios": {
+      "supportsTablet": true
+    }
+  }
+}
