@@ -25,3 +25,6 @@
 - npm reports 12 moderate dependency advisories after the SDK 58 upgrade. No force upgrade was applied because it can break SDK compatibility.
 - No cloud sync or task editing; neither is required by the core rubric.
 - Local preview uses a basic static server; direct reloads at nested URLs require an SPA fallback. Use `npm run web` for development.
+
+## User-supplied iPhone evidence
+Native Expo Go screenshots show the add-task form and a completed High-priority task with matching total/completed counts, saved user name and dark theme. Screenshots added as mobile-home.png and mobile-add-task.png. Persistence after restart, search and deletion are not established by screenshots alone. Native navigation contrast was corrected after inspecting these screenshots; refreshed screenshots are recommended.
