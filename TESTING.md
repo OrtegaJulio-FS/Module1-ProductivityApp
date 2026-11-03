@@ -16,8 +16,8 @@
 ## Still required
 - Actual native mobile runtime testing and screenshots. Command-line tools alone do not run a mobile app.
 - Full test checklist in README, including keyboard navigation, responsive widths, deletion confirmation and native persistence.
-- Student's personal reflections and actual setup time.
-- Public GitHub repository, instructor invitation, and final matching ZIP after adding remaining materials.
+- Student review of the prepared 300-word reflection and actual setup time for Exercise 1.5.
+- Public GitHub repository: https://github.com/OrtegaJulio-FS/Module1-ProductivityApp (main). Instructor csilvestro was invited with write access; acceptance is pending.
 
 ## Known constraints
 - Upgraded from SDK 54 to SDK 58 to match the user’s installed iPhone Expo Go. TypeScript, SDK compatibility checks (offline metadata), iOS bundling and web bundling pass after upgrade. Actual iPhone runtime verification remains pending.

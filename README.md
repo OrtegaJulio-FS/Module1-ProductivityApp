@@ -36,7 +36,7 @@ Native tasks use parameterized SQLite statements. Native name/theme settings use
 See TESTING.md for actual verification status. A narrow browser screenshot is not evidence of native mobile testing.
 
 ## Submission
-- Replace REFLECTION.md prompts with your own 300–500 words after testing.
+- REFLECTION.md contains a 300-word draft based on the observed workflow. Review it for accuracy and personalize it before submitting.
 - Complete Exercise1.5/REFLECTION.md and the troubleshooting log.
 - Add real screenshots. Do not submit placeholder files as evidence.
 - Create a public GitHub repository; upload this package's files (excluding node_modules, .expo, dist and .git), and invite `csilvestro` in repository Settings → Collaborators.
